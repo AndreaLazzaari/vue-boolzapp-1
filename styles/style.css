@@ -8,12 +8,46 @@
 header{
     height: 100px;
     background-color: #009688;
+    /* position: relative; */
 }
+
+/* Generali */
 
 div.container{
     margin: 0 auto;
+    /* width: 80%; */
     width: 80vw;
-    height: 95vh;
-    background-color: aqua;
-    
+    /* height: 90%; */
+    height: 90vh;
+    background-color: rgb(219, 238, 238);
+    /* position: absolute;
+    right: 10%;
+    top: 3%; */
+  
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-btw{
+    justify-content: space-between;
+}
+
+/* Contatti */
+div.contatti{
+    width: 30%;
+
+}
+
+div.contatti > section img{
+    width: 20%;
+    border-radius: 5rem;
+    padding: .25rem;
+}
+
+
+/* Chat */
+div.chat{
+    width: 70%;
 }
