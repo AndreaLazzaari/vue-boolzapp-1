@@ -5,3 +5,15 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 100px;
+    background-color: #009688;
+}
+
+div.container{
+    margin: 0 auto;
+    width: 80vw;
+    height: 95vh;
+    background-color: aqua;
+    
+}
